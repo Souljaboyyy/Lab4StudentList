@@ -1,0 +1,14 @@
+Name Sasha
+Surname Mir
+Group MK-201
+Age 21
+Number 15716
+Marks 4 2 3 0 0 
+
+Name Sasha
+Surname Mir
+Group MN-102
+Age 28
+Number 3331
+Marks 4 4 4 0 1 
+

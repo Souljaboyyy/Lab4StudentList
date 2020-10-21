@@ -1,0 +1,2 @@
+D:\StudentList\Debug\StudentList.exe
+D:\StudentList\Debug\StudentList.pdb
