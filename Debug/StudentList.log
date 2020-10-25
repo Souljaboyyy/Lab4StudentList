@@ -1,8 +1,7 @@
-﻿  main.c
-D:\StudentList\main.c(272,12): warning C4018: <: несоответствие типов со знаком и без знака
-D:\StudentList\main.c(362,23): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
-D:\StudentList\main.c(367,19): warning C4047: функция: "Student **" отличается по уровням косвенного обращения от "Student ***"
-D:\StudentList\main.c(367,14): warning C4024: FreeList: различные типы для формального и фактического параметров 1
-D:\StudentList\main.c(435,18): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\StudentList\main.c(171): warning C4715: deletestudent: значение возвращается не при всех путях выполнения
+﻿  MyList.c
+D:\StudentList\MyList.c(260,12): warning C4018: <: несоответствие типов со знаком и без знака
+D:\StudentList\MyList.c(350,23): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+D:\StudentList\MyList.c(355,18): warning C4047: функция: "Student **" отличается по уровням косвенного обращения от "Student ***"
+D:\StudentList\MyList.c(355,13): warning C4024: FreeList: различные типы для формального и фактического параметров 1
+D:\StudentList\MyList.c(159): warning C4715: deletestudent: значение возвращается не при всех путях выполнения
   StudentList.vcxproj -> D:\StudentList\Debug\StudentList.exe

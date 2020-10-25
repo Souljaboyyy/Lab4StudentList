@@ -3,8 +3,9 @@
 #include<string.h>
 #include<time.h>
 #include<windows.h>
+#include"Header.h"
 
- struct Student {
+ /*struct Student {
 	char* Name;
 	char* Surname;
 	char* Group;
@@ -58,9 +59,7 @@
  Student* createrandomstudent();
 
  void add(Student** list,BOOL flag) {
-	 //Student* last;
-	 //last=list;
-
+	
 	 if ((*list) == NULL)
 	 {
 		 if (flag == FALSE)
@@ -385,19 +384,19 @@ void loadfromfile(Student** list)
 		 fgets(buff, 255, inputfile);
 		 student->Name = (char*)malloc(sizeof(char)* (strlen(buff)+1));
 		 strcpy_s(student->Name, strlen(buff) + 1, buff);
-		 //fseek(inputfile, 1, SEEK_CUR);
+		 
 
  		 fseek(inputfile, strlen("Surname "), SEEK_CUR);
 		 fgets(buff, 255, inputfile);
 		 student->Surname = (char*)malloc(sizeof(char) * (strlen(buff) + 1));
 		 strcpy_s(student->Surname, strlen(buff) + 1, buff);
- 		 //fseek(inputfile, 1, SEEK_CUR);
+ 		
 
 		 fseek(inputfile, strlen("Group "), SEEK_CUR);
 		 fgets(buff, 255, inputfile);
 		 student->Group = (char*)malloc(sizeof(char) * (strlen(buff) + 1));
 		 strcpy_s(student->Group, strlen(buff) + 1, buff);
- 		 //fseek(inputfile, 1, SEEK_CUR);
+ 		 
 
 		 fseek(inputfile, strlen("Age "), SEEK_CUR);
 		 fscanf_s(inputfile, "%d", &student->Age);
@@ -429,7 +428,7 @@ void loadfromfile(Student** list)
 	*list = student;
 
 	fclose(inputfile);
- }
+ }*/
 
 int main(){
 	srand(time(NULL));
